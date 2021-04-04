@@ -29,6 +29,14 @@ nav a {
     color: #FFF;
 }
 
+.name {
+    font-size: 36px;
+    color: #FFF;
+    position: absolute;
+    top: -44px;
+    text-align: left;
+}
+
 .about {
     font-size: 32px;
     font-weight: lighter;
