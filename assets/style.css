@@ -73,3 +73,13 @@ footer {
     left:158px;
     top:1400px;
 }
+
+.number {
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    top: 1400px;
+    left: 170px;
+    margin-top: 27px;
+}
+
