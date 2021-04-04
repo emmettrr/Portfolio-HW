@@ -37,3 +37,12 @@ nav a {
     text-align: left;
     margin-top: 20px;
 }
+
+.work {
+    font-size: 32px;
+    font-weight: lighter;
+    position: absolute;
+    top: 580px;
+    text-align: left;
+    margin-top: 20px;
+}
