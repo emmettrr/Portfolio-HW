@@ -3,3 +3,10 @@ header {
     height: 1440px;
     transform: translate(0px, -1272px);
 }
+
+.nav {
+    background-image: url("/assets/images/rec.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
