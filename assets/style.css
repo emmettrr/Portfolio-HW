@@ -42,7 +42,7 @@ nav a {
     font-size: 32px;
     font-weight: lighter;
     position: absolute;
-    top: 580px;
+    top: 700px;
     text-align: left;
     margin-top: 20px;
 }
@@ -51,7 +51,7 @@ footer {
     font-size: 32px;
     font-weight: lighter;
     position: absolute;
-    top: 1125px;
+    top: 1400px;
     text-align: left;
     margin-top: 20px;
 }
@@ -65,11 +65,11 @@ footer {
 .line2 {
     position: absolute;
     left:158px;
-    top:416px;
+    top:558px;
 }
 
 .line3 {
     position: absolute;
     left:158px;
-    top:1125px;
+    top:1400px;
 }
