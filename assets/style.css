@@ -1,20 +1,19 @@
 body {
     font-size: 16px;
-    font-family: Helvetica;
+    font-family: Helvetica, 'Courier New', Courier, monospace;
 }
 
 .img {
     width: 100%;
-    height: auto;
-    transform: translate(0px, -1820px);
+    transform: translate(0px, 6px);
 }
 
 nav {
     background-image: url("/assets/images/rec.jpg");
     padding:5px;
     width:100%;
-    font-size: 28px;
-    transform: translate(0px, -2020px);
+    font-size: 30px;
+    transform: translate(0px, -190px);
     text-align: right;
 }
 
@@ -25,6 +24,7 @@ nav a {
 }
 
 #work, #about, #cont {
+    font-size:32px; 
     text-decoration: none;
     color: #FFF;
 }
@@ -118,3 +118,6 @@ footer {
     left: 740px;
     margin-top: 27px;
 }
+
+/* @media screen and (max-width: 300px) */
+    
