@@ -46,3 +46,15 @@ nav a {
     text-align: left;
     margin-top: 20px;
 }
+
+.line {
+    position: absolute;
+    left:158px;
+    top:220px;
+}
+
+.line2 {
+    position: absolute;
+    left:158px;
+    top:416px;
+}
