@@ -37,6 +37,14 @@ nav a {
     text-align: left;
 }
 
+.title {
+    color:#FFF;
+    font-size: 36px;
+    position:relative;
+    text-align: right;
+    top: -160px;
+}
+
 .about {
     font-size: 32px;
     font-weight: lighter;
@@ -126,6 +134,4 @@ footer {
     left: 740px;
     margin-top: 27px;
 }
-
-/* @media screen and (max-width: 300px) */
     
