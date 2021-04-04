@@ -3,10 +3,10 @@ body {
     font-family: Helvetica;
 }
 
-header {
-    width: auto;
-    height: 100%;
-    transform: translate(0px, -1270px);
+.img {
+    width: 100%;
+    height: auto;
+    transform: translate(0px, -1820px);
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
     padding:5px;
     width:100%;
     font-size: 28px;
-    transform: translate(0px, -1452px);
+    transform: translate(0px, -2020px);
     text-align: right;
 }
 
