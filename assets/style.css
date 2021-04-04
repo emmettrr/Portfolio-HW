@@ -18,9 +18,8 @@ nav {
     text-align: right;
 }
 
-#work, #about, #contact {
+#work, #about, #cont {
     padding:5px;
     text-decoration: none;
     color: #FFF;
-
 }
