@@ -83,3 +83,38 @@ footer {
     margin-top: 27px;
 }
 
+.email {
+    position: absolute;
+    height:30px;
+    width: 30px;
+    top: 1400px;
+    left: 360px;
+    margin-top: 27px;
+}
+
+.myemail {
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+    margin-top: 27px;
+}
+
+.github {
+    position: absolute;
+    height:30px;
+    width: 30px;
+    top: 1400px;
+    left: 700px;
+    margin-top: 27px;
+}
+
+.github-link {
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    top: 1401px;
+    left: 740px;
+    margin-top: 27px;
+}
