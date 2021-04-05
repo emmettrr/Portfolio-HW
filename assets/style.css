@@ -46,7 +46,7 @@ nav a {
     font-size: 66px;
     position:relative;
     left: 1080px;
-    top: -360px;
+    top: -1300px;
 }
 
 .about {
@@ -68,11 +68,11 @@ nav a {
 }
 
 .selfie {
-    width: 10%;
-    height: 10%;
-    object-fit: contain;
+    position: absolute;
+    width: 11%;
+    height: 20%;
     margin-left:170px;
-    margin-top: -100px;
+    margin-top: -1100px;
 }
 
 footer {
@@ -146,4 +146,43 @@ footer {
     left: 740px;
     margin-top: 27px;
 }
-    
+
+.camera {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 500px;
+    top: 200px;
+}
+
+.fluxion {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 500px;
+    top: 400px;
+}
+
+.waves {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 200px;
+    top: 400px;
+}
+
+.weather {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 500px;
+    top: 200px;
+}
+
+.mic {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 500px;
+    top: 200px;
+}
