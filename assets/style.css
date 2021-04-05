@@ -25,8 +25,9 @@ nav a {
 
 #work, #about, #cont {
     font-size:32px; 
-    text-decoration: none;
+    text-decoration: underline;
     color: #FFF;
+    cursor: pointer;
 }
 
 .name {
