@@ -74,9 +74,6 @@ header h4 {
 nav {
     background-image: url(/assets/images/rec.jpg);
     padding: 15px 30px 15px 15px;
-   
-    /* font-size: 30px; */
-    /* transform: translate(0px, -280px); */
     text-align: right;
     box-sizing: border-box;
 }
