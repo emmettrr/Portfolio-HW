@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     font-family: Helvetica, 'Courier New', Courier, monospace;
+	margin:0px;
 }
 
 .img {
@@ -8,27 +9,90 @@ body {
     transform: translate(0px, -60px);
 }
 
-nav {
-    background-image: url("/assets/images/rec.jpg");
-    padding:5px;
-    width:100%;
-    font-size: 30px;
-    transform: translate(0px, -280px);
+section {
+	position:relative;
+}
+#hero {
+    background: url(./images/nav.jpg) center/cover no-repeat;
+    padding:0px 0px 20px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#hero-text {
+	padding-top: 100px;
+    padding-right: 50px;
+}
+
+#hero-text h4 {
+	    margin: 0px;
+    background: rgb(123, 114, 114);
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+}
+header {
+    background: #31343d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#aboutme {
+    display: flex;
+    padding: 25px 50px 25px 0px;
+    background: #ededf7;
+}
+.sec-content p {
+	margin:0px 0px 15px 0px;
+}
+.sec-heading h3 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    padding-right: 15px;
     text-align: right;
+    color: #31343d;
+}
+
+.sec-heading {
+    padding-left: 100px;
+    border-right: 2px solid #31343d;
+    margin-right: 20px;
+}
+
+header h4 {
+    background: rgb(123, 114, 114);
+    font-size: 36px;
+    color: #FFF;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+nav {
+    background-image: url(/assets/images/rec.jpg);
+    padding: 15px 30px 15px 15px;
+   
+    /* font-size: 30px; */
+    /* transform: translate(0px, -280px); */
+    text-align: right;
+    box-sizing: border-box;
 }
 
 nav a {
     display: inline-block;
     list-style: none;
     margin: 0px 20px;
-}
-
-#work, #about, #cont {
-    font-size:32px; 
+	 font-size:22px; 
+	line-height:28px;
     text-decoration: underline;
     color: #FFF;
     cursor: pointer;
 }
+
+
 
 .name {
     background:rgb(123, 114, 114);
