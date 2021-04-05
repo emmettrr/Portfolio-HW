@@ -45,6 +45,9 @@ section#aboutme {
     background: #ededf7;
 }
 .sec-content p {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 	margin:0px 0px 15px 0px;
 }
 .sec-heading h3 {
@@ -54,6 +57,13 @@ section#aboutme {
     padding-right: 15px;
     text-align: right;
     color: #31343d;
+}
+
+#selfie {
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 .sec-heading {
