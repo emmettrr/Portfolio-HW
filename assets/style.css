@@ -45,8 +45,8 @@ nav a {
     width: 39%;
     font-size: 66px;
     position:relative;
-    left: 1080px;
-    top: -1300px;
+    left: 900px;
+    top: -500px;
 }
 
 .about {
@@ -68,11 +68,12 @@ nav a {
 }
 
 .selfie {
-    position: absolute;
+    position: relative;
+    float: left;
     width: 11%;
     height: 20%;
     margin-left:170px;
-    margin-top: -1100px;
+    margin-top: -360px;
 }
 
 footer {
@@ -149,40 +150,50 @@ footer {
 
 .camera {
     position: relative;
-    width: 30%;
-    height: 20%;
-    left: 500px;
-    top: 200px;
+    width: 288px;
+    height: 152px;
+    left: 463px;
+    top: 500px;
+    border: solid 2px;
+    border-color: aqua;
 }
 
 .fluxion {
     position: relative;
-    width: 30%;
-    height: 20%;
-    left: 500px;
-    top: 400px;
+    width: 351px;
+    height: 217px;
+    left: 520px;
+    top: 652px;
+    border: solid 2px;
+    border-color: aqua;
 }
 
 .waves {
     position: relative;
-    width: 30%;
-    height: 20%;
-    left: 200px;
-    top: 400px;
+    width: 351px;
+    height: 224px;
+    left: 263px;
+    top: 502px;
+    border: solid 2px;
+    border-color: aqua;
 }
 
 .weather {
     position: relative;
-    width: 30%;
-    height: 20%;
-    left: 500px;
-    top: 200px;
+    width: 343px;
+    height: 220px;
+    right:-309px;
+    top: 656px;
+    border: solid 2px;
+    border-color: aqua;
 }
 
 .mic {
-    position: relative;
-    width: 30%;
-    height: 20%;
-    left: 500px;
-    top: 200px;
+    position: absolute;
+    width: 561px;
+    height: 312px;
+    right: 251px;
+    top: 480px;
+    border: solid 2px;
+    border-color: aqua;
 }
