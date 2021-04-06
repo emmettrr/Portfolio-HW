@@ -99,7 +99,6 @@ nav a {
 }
 
 
-
 .name {
     background:rgb(123, 114, 114);
     font-size: 36px;
@@ -218,52 +217,31 @@ footer {
     margin-top: 27px;
 }
 
-.camera {
-    position: relative;
-    width: 288px;
-    height: 152px;
-    left: 463px;
-    top: 500px;
-    border: solid 2px;
-    border-color: aqua;
+.work {
+    padding-left: 50px;
+    border-right: 2px solid #31343d;
+    margin-right: 10px;
 }
 
-.fluxion {
-    position: relative;
-    width: 351px;
-    height: 217px;
-    left: 520px;
-    top: 652px;
-    border: solid 2px;
-    border-color: aqua;
+.work h3 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    padding-right: 25px;
+    text-align: right;
+    color: #31343d;
 }
 
-.waves {
-    position: relative;
-    width: 351px;
-    height: 224px;
-    left: 263px;
-    top: 502px;
-    border: solid 2px;
-    border-color: aqua;
+section#aboutme {
+    display: flex;
+    padding: 25px 50px 25px 0px;
+    background: #ededf7;
 }
 
-.weather {
-    position: relative;
-    width: 343px;
-    height: 220px;
-    right:-309px;
-    top: 656px;
-    border: solid 2px;
-    border-color: aqua;
-}
-
-.mic {
-    position: absolute;
-    width: 561px;
-    height: 312px;
-    right: 251px;
-    top: 480px;
-    border: solid 2px;
-    border-color: aqua;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex:1;
 }
