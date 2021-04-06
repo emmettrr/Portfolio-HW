@@ -145,78 +145,6 @@ nav a {
     margin-top: -360px;
 }
 
-footer {
-    font-size: 32px;
-    font-weight: lighter;
-    position: absolute;
-    top: 1400px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.line {
-    position: absolute;
-    left:158px;
-    top:220px;
-}
-
-.line2 {
-    position: absolute;
-    left:158px;
-    top:558px;
-}
-
-.line3 {
-    position: absolute;
-    left:158px;
-    top:1400px;
-}
-
-.number {
-    font-size: 24px;
-    font-weight: lighter;
-    position: absolute;
-    top: 1400px;
-    left: 170px;
-    margin-top: 27px;
-}
-
-.email {
-    position: absolute;
-    height:30px;
-    width: 30px;
-    top: 1400px;
-    left: 360px;
-    margin-top: 27px;
-}
-
-.myemail {
-    font-size: 24px;
-    font-weight: lighter;
-    position: absolute;
-    top: 1400px;
-    left: 400px;
-    margin-top: 27px;
-}
-
-.github {
-    position: absolute;
-    height:30px;
-    width: 30px;
-    top: 1400px;
-    left: 700px;
-    margin-top: 27px;
-}
-
-.github-link {
-    font-size: 24px;
-    font-weight: lighter;
-    position: absolute;
-    top: 1401px;
-    left: 740px;
-    margin-top: 27px;
-}
-
 .work {
     padding-left: 50px;
     border-right: 2px solid #31343d;
@@ -238,10 +166,34 @@ section#aboutme {
     background: #ededf7;
 }
 
-.gallery {
+/* .gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex:1;
+    flex:6;
+} */
+
+
+#contact {
+    font-size: 32px;
+    border-right: 2px solid #31343d;
+    display:flex;
+    position: fixed;
+    bottom:0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+#email {
+    display:flex;
+    width:20px;
+    height: 20px;
+    padding-right: 20px;
+    justify-items: flex-start;
+    align-content: flex-start;
+    position:fixed;
+    bottom:0;
 }
