@@ -19,6 +19,22 @@ section {
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+.big-box {
+	
+    height: 300px;
+  
+
+}
+
+.box {
+	    align-items: flex-end;
+	display:flex;
+    border: 5px solid grey;
+	background-color: blue;
+	flex:1;
+	margin-bottom:10px;
+}
 #hero-text {
 	padding-top: 100px;
     padding-right: 50px;
@@ -39,7 +55,7 @@ header {
     justify-content: space-between;
 }
 
-section#aboutme {
+section#aboutme, section#mywork {
     display: flex;
     padding: 25px 50px 25px 0px;
     background: #ededf7;
@@ -49,6 +65,10 @@ section#aboutme {
     align-items: flex-start;
     justify-content: flex-start;
 	margin:0px 0px 15px 0px;
+}
+
+.sec-content {
+	flex:1;
 }
 .sec-heading h3 {
     margin: 0px;
@@ -70,8 +90,23 @@ section#aboutme {
     padding-left: 100px;
     border-right: 2px solid #31343d;
     margin-right: 20px;
-}
+	width:190px;
 
+}
+.box-row .box {
+	width:49%;
+	flex:unset;
+}
+.box-row {
+    display: flex;
+    justify-content: space-between;
+}
+.box-head {
+    background: grey;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
 header h4 {
     background: rgb(123, 114, 114);
     font-size: 36px;
