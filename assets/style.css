@@ -53,6 +53,7 @@ section {
     margin-right: 10px;
 }
 
+
 .box-box4 {
     align-items: flex-end;
 	display:flex;
@@ -95,6 +96,22 @@ section#aboutme, section#mywork {
     display: flex;
     padding: 25px 50px 25px 0px;
     background: #ededf7;
+}
+
+.box:hover {
+    transform:scale(1.2)
+}
+
+.box-box2:hover {
+    transform:scale(1.2)
+}
+
+.box-box3:hover {
+    transform:scale(1.2)
+}
+
+.box-box4   :hover {
+    transform:scale(1.2)
 }
 
 .sec-content p {
