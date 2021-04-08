@@ -12,6 +12,7 @@
 section {
 	position:relative;
 }
+
 #hero {
     background: url(./images/nav.jpg) center/cover no-repeat;
     padding:0px 0px 20px 0px;
@@ -27,7 +28,7 @@ section {
 .box-box1 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid grey;
+    border: 5px solid rgb(53, 53, 53);
 	background: url(/assets/images/flux.jpg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -37,7 +38,7 @@ section {
 .box-box2 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid grey;
+    border: 5px solid rgb(53, 53, 53);
 	background: url(/assets/images/weather.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -46,7 +47,7 @@ section {
 .box-box3 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid grey;
+    border: 5px solid rgb(53, 53, 53);
 	background: url(/assets/images/waves.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -57,20 +58,21 @@ section {
 .box-box4 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid grey;
+    border: 5px solid rgb(53, 53, 53);
 	background: url(/assets/images/mic.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
 
-.box {
+.big-box {
 	align-items: flex-end;
 	display:flex;
-    border: 5px solid grey;
+    border: 5px solid rgb(53, 53, 53);
 	background: url(/assets/images/camera.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
+
 
 #hero-text {
 	padding-top: 100px;
