@@ -9,16 +9,134 @@
     transform: translate(0px, -60px);
 }
 
-section {
-	position:relative;
-}
-
 #hero {
     background: url(./images/nav.jpg) center/cover no-repeat;
     padding:0px 0px 20px 0px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+#hero-text {
+	padding-top: 100px;
+    padding-right: 50px;
+}
+
+#hero-text h4 {
+	margin: 0px;
+    background: rgb(123, 114, 114);
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+}
+
+header {
+    background: #31343d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h4 {
+    background: rgb(123, 114, 114);
+    font-size: 36px;
+    color: #FFF;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+nav {
+    padding: 15px 30px 15px 15px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+nav a {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+	 font-size:22px; 
+	line-height:28px;
+    text-decoration: underline;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.name {
+    background:rgb(123, 114, 114);
+    font-size: 36px;
+    color: #FFF;
+    position: absolute;
+    top: -50px;
+    text-align: left;
+}
+
+.about {
+    font-size: 32px;
+    font-weight: lighter;
+    position: absolute;
+    top: 234px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.selfie {
+    position: relative;
+    float: left;
+    width: 11%;
+    height: 20%;
+    margin-left:170px;
+    margin-top: -360px;
+}
+
+.contact-heading h4 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #31343d;
+}
+
+section {
+	position:relative;
+}
+
+section#aboutme, section#mywork, section#contact{
+    display: flex;
+    padding: 25px 50px 25px 0px;
+    background: #959393;
+}
+
+.sec-content p {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	margin:0px 0px 15px 0px;
+}
+
+.sec-content {
+	flex:1;
+}
+
+.sec-heading h3 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    padding-right: 15px;
+    text-align: right;
+    color: #31343d;
+}
+
+.box-row .box {
+	width:49%;
+	flex:unset;
+}
+
+.box-row2 .box {
+    width: 49%;
+    flex:unset;
 }
 
 .big-box {
@@ -70,41 +188,6 @@ section {
 	margin-bottom:10px;
 }
 
-
-#hero-text {
-	padding-top: 100px;
-    padding-right: 50px;
-}
-
-#hero-text h4 {
-	margin: 0px;
-    background: rgb(123, 114, 114);
-    padding: 5px;
-    display: inline-block;
-    color: white;
-    font-size: 35px;
-}
-
-header {
-    background: #31343d;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section#aboutme, section#mywork, section#contact{
-    display: flex;
-    padding: 25px 50px 25px 0px;
-    background: #959393;
-}
-
-.contact-heading h4 {
-    padding-left: 100px;
-    border-right: 2px solid #31343d;
-    margin-right: 20px;
-    width: 190px; 
-}
-
 .big-box:hover {
     transform:scale(1.2)
 }
@@ -125,24 +208,11 @@ section#aboutme, section#mywork, section#contact{
     transform:scale(1.2)
 }
 
-.sec-content p {
-    display:flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-	margin:0px 0px 15px 0px;
-}
-
-.sec-content {
-	flex:1;
-}
-
-.sec-heading h3 {
-    margin: 0px;
-    font-size: 36px;
-    line-height: 40px;
-    padding-right: 15px;
-    text-align: right;
-    color: #31343d;
+.contact-heading h4 {
+    padding-left: 100px;
+    border-right: 2px solid #31343d;
+    margin-right: 20px;
+    width: 190px; 
 }
 
 #selfie {
@@ -158,15 +228,6 @@ section#aboutme, section#mywork, section#contact{
     margin-right: 20px;
 	width:190px;
 
-}
-.box-row .box {
-	width:49%;
-	flex:unset;
-}
-
-.box-row2 .box {
-    width: 49%;
-    flex:unset;
 }
 
 .box-row {
@@ -186,68 +247,6 @@ section#aboutme, section#mywork, section#contact{
     margin-top: 50px;
 }
 
-
-header h4 {
-    background: rgb(123, 114, 114);
-    font-size: 36px;
-    color: #FFF;
-    margin: 0px;
-    padding-left: 50px;
-    padding-right: 10px;
-}
-
-nav {
-    padding: 15px 30px 15px 15px;
-    text-align: right;
-    box-sizing: border-box;
-}
-
-nav a {
-    display: inline-block;
-    list-style: none;
-    margin: 0px 20px;
-	 font-size:22px; 
-	line-height:28px;
-    text-decoration: underline;
-    color: #FFF;
-    cursor: pointer;
-}
-
-
-.name {
-    background:rgb(123, 114, 114);
-    font-size: 36px;
-    color: #FFF;
-    position: absolute;
-    top: -50px;
-    text-align: left;
-}
-
-.about {
-    font-size: 32px;
-    font-weight: lighter;
-    position: absolute;
-    top: 234px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.selfie {
-    position: relative;
-    float: left;
-    width: 11%;
-    height: 20%;
-    margin-left:170px;
-    margin-top: -360px;
-}
-
-.contact-heading h4 {
-    margin: 0px;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    color: #31343d;
-}
 
 section#aboutme {
     display: flex;
