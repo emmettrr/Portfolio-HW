@@ -107,7 +107,7 @@ section#aboutme, section#mywork, section#contact{
     width: 190px; 
 }
 
-.box:hover {
+.big-box:hover {
     transform:scale(1.2)
 }
 
