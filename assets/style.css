@@ -91,12 +91,19 @@ nav a {
     margin-top: -360px;
 }
 
-.contact-heading h4 {
-    margin: 0px;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    color: #31343d;
+#selfie {
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.sec-heading {
+    padding-left: 100px;
+    border-right: 2px solid #31343d;
+    margin-right: 20px;
+	width:190px;
+
 }
 
 section {
@@ -127,6 +134,29 @@ section#aboutme, section#mywork, section#contact{
     padding-right: 15px;
     text-align: right;
     color: #31343d;
+}
+
+section#aboutme {
+    display: flex;
+    padding: 25px 50px 25px 0px;
+    background: #959393;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-head {
+    background: grey;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 .box-row .box {
@@ -209,49 +239,18 @@ section#aboutme, section#mywork, section#contact{
 }
 
 .contact-heading h4 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #31343d;
+}
+
+.contact-heading h4 {
     padding-left: 100px;
     border-right: 2px solid #31343d;
     margin-right: 20px;
     width: 190px; 
-}
-
-#selfie {
-    float: left;
-    padding-right: 20px;
-    width: 200px;
-    height: 200px;
-}
-
-.sec-heading {
-    padding-left: 100px;
-    border-right: 2px solid #31343d;
-    margin-right: 20px;
-	width:190px;
-
-}
-
-.box-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.box-row2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.box-head {
-    background: grey;
-    margin-bottom: 10px;
-    padding: 10px;
-    margin-top: 50px;
-}
-
-
-section#aboutme {
-    display: flex;
-    padding: 25px 50px 25px 0px;
-    background: #959393;
 }
 
 @media screen 
