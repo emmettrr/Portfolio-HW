@@ -4,6 +4,13 @@
 	margin:0px;
 }
 
+:root {
+    --dark:#31343d;
+    --tan: rgb(123, 114, 114);
+    --cream: #959393;
+    --brown: rgb(53, 53, 53);
+}
+
 .img {
     width: 100%;
     transform: translate(0px, -60px);
@@ -24,7 +31,7 @@
 
 #hero-text h4 {
 	margin: 0px;
-    background: rgb(123, 114, 114);
+    background: var(--tan);
     padding: 5px;
     display: inline-block;
     color: white;
@@ -32,14 +39,14 @@
 }
 
 header {
-    background: #31343d;
+    background: var(--dark);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 header h4 {
-    background: rgb(123, 114, 114);
+    background:var(--tan);
     font-size: 36px;
     color: #FFF;
     margin: 0px;
@@ -65,7 +72,7 @@ nav a {
 }
 
 .name {
-    background:rgb(123, 114, 114);
+    background:var(--tan);
     font-size: 36px;
     color: #FFF;
     position: absolute;
@@ -100,7 +107,7 @@ nav a {
 
 .sec-heading {
     padding-left: 100px;
-    border-right: 2px solid #31343d;
+    border-right: 2px solid var(--dark);
     margin-right: 20px;
 	width:190px;
 
@@ -113,7 +120,7 @@ section {
 section#aboutme, section#mywork, section#contact{
     display: flex;
     padding: 25px 50px 25px 0px;
-    background: #959393;
+    background: var(--cream);
 }
 
 .sec-content p {
@@ -133,13 +140,13 @@ section#aboutme, section#mywork, section#contact{
     line-height: 40px;
     padding-right: 15px;
     text-align: right;
-    color: #31343d;
+    color: var(--dark);
 }
 
 section#aboutme {
     display: flex;
     padding: 25px 50px 25px 0px;
-    background: #959393;
+    background: var(--cream);
 }
 
 .box-row {
@@ -173,7 +180,7 @@ section#aboutme {
 	align-items: flex-end;
     height: 300px;
 	display:flex;
-    border: 5px solid rgb(53, 53, 53);
+    border: 5px solid var(--brown);
 	background: url(/assets/images/camera.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -182,7 +189,7 @@ section#aboutme {
 .box-box1 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid rgb(53, 53, 53);
+    border: 5px solid ;
 	background: url(/assets/images/flux.jpg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -192,7 +199,7 @@ section#aboutme {
 .box-box2 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid rgb(53, 53, 53);
+    border: 5px solid var(--brown);
 	background: url(/assets/images/weather.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -201,7 +208,7 @@ section#aboutme {
 .box-box3 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid rgb(53, 53, 53);
+    border: 5px solid var(--brown);
 	background: url(/assets/images/waves.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -212,7 +219,7 @@ section#aboutme {
 .box-box4 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid rgb(53, 53, 53);
+    border: 5px solid var(--brown);
 	background: url(/assets/images/mic.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
@@ -243,12 +250,12 @@ section#aboutme {
     font-size: 36px;
     line-height: 40px;
     text-align: center;
-    color: #31343d;
+    color: var(--dark);
 }
 
 .contact-heading h4 {
     padding-left: 100px;
-    border-right: 2px solid #31343d;
+    border-right: 2px solid var(--dark);
     margin-right: 20px;
     width: 190px; 
 }
