@@ -92,10 +92,17 @@ header {
     justify-content: space-between;
 }
 
-section#aboutme, section#mywork {
+section#aboutme, section#mywork, section#contact{
     display: flex;
     padding: 25px 50px 25px 0px;
     background: #ededf7;
+}
+
+.contact-heading h4 {
+    padding-left: 100px;
+    border-right: 2px solid #31343d;
+    margin-right: 20px;
+    width: 190px; 
 }
 
 .box:hover {
@@ -268,32 +275,31 @@ nav a {
     color: #31343d;
 }
 
+.contact-heading h4 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #31343d;
+}
+
 section#aboutme {
     display: flex;
     padding: 25px 50px 25px 0px;
     background: #ededf7;
 }
 
-/* .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex:6;
-} */
-
-footer {
-    display: flex;
-    flex-direction: column-reverse;
-    border-right: 2px solid #31343d;
+.contact-nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+	font-size:22px; 
+	line-height:28px;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.contact h4 {
-    display:flex;
-    min-height: 100vh;
-    font-size: 36px;
-    flex-direction: column;
-    padding-right: 25px;
-    text-align: right;
-    color: #31343d;
+
+a {
+    color: black;
 }
