@@ -21,26 +21,47 @@ section {
 }
 
 .big-box {
-	
+	background: url(/assets/images/camera.jpeg) center/cover no-repeat;
     height: 300px;
-  
-
+    display: flex;
+    align-items: flex-end;
+    border: 5px solid grey;
+    flex:1;
+    margin-bottom: 10px;
 }
 
-.box {
-	    align-items: flex-end;
+.box1 {
+    align-items: flex-end;
 	display:flex;
     border: 5px solid grey;
-	background-color: blue;
+	background:url(/assets/images/mic.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
+
+.box2 {
+	align-items: flex-end;
+	display:flex;
+    border: 5px solid grey;
+	background:url(/assets/images/weather.jpeg) center/cover no-repeat;
+	flex:1;
+	margin-bottom:10px;
+}
+ 
+.box3 {
+    display:flex;
+    border: 5px solid grey;
+    flex-direction: column;
+
+}
+
+
 #hero-text {
 	padding-top: 100px;
     padding-right: 50px;
 }
 
-#hero-text h4 {
+#hero-text h2 {
 	margin: 0px;
     background: rgb(123, 114, 114);
     padding: 5px;
@@ -201,14 +222,6 @@ section#aboutme {
     background: #ededf7;
 }
 
-/* .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex:6;
-} */
-
 footer {
     display: flex;
     flex-direction: column-reverse;
@@ -224,3 +237,13 @@ footer {
     text-align: right;
     color: #31343d;
 }
+
+
+
+
+
+
+@media screen and (max-width: 768px){}
+
+
+@media screen and (max-width: 526px){}
