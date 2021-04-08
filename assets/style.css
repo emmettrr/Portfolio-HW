@@ -30,7 +30,8 @@ section {
     border: 5px solid grey;
 	background: url(/assets/images/flux.jpg) center/cover no-repeat;
 	flex:1;
-	margin-bottom:10px;   
+	margin-bottom:10px;
+    margin-right: 10px;   
 }
 
 .box-box2 {
@@ -38,6 +39,25 @@ section {
 	display:flex;
     border: 5px solid grey;
 	background: url(/assets/images/weather.jpeg) center/cover no-repeat;
+	flex:1;
+	margin-bottom:10px;
+}
+
+.box-box3 {
+    align-items: flex-end;
+	display:flex;
+    border: 5px solid grey;
+	background: url(/assets/images/waves.jpeg) center/cover no-repeat;
+	flex:1;
+	margin-bottom:10px;
+    margin-right: 10px;
+}
+
+.box-box4 {
+    align-items: flex-end;
+	display:flex;
+    border: 5px solid grey;
+	background: url(/assets/images/mic.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
@@ -50,6 +70,7 @@ section {
 	flex:1;
 	margin-bottom:10px;
 }
+
 #hero-text {
 	padding-top: 100px;
     padding-right: 50px;
@@ -75,6 +96,7 @@ section#aboutme, section#mywork {
     padding: 25px 50px 25px 0px;
     background: #ededf7;
 }
+
 .sec-content p {
     display:flex;
     align-items: flex-start;
@@ -85,6 +107,7 @@ section#aboutme, section#mywork {
 .sec-content {
 	flex:1;
 }
+
 .sec-heading h3 {
     margin: 0px;
     font-size: 36px;
@@ -112,16 +135,30 @@ section#aboutme, section#mywork {
 	width:49%;
 	flex:unset;
 }
+
+.box-row2 .box {
+    width: 49%;
+    flex:unset;
+}
+
 .box-row {
     display: flex;
     justify-content: space-between;
 }
+
+.box-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .box-head {
     background: grey;
     margin-bottom: 10px;
     padding: 10px;
     margin-top: 50px;
 }
+
+
 header h4 {
     background: rgb(123, 114, 114);
     font-size: 36px;
