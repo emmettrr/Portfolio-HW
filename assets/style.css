@@ -102,6 +102,10 @@ section#aboutme, section#mywork {
     transform:scale(1.2)
 }
 
+.box-box1:hover {
+    transform:scale(1.2)
+}
+
 .box-box2:hover {
     transform:scale(1.2)
 }
@@ -110,7 +114,7 @@ section#aboutme, section#mywork {
     transform:scale(1.2)
 }
 
-.box-box4   :hover {
+.box-box4:hover {
     transform:scale(1.2)
 }
 
