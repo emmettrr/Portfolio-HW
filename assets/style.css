@@ -95,7 +95,7 @@ header {
 section#aboutme, section#mywork, section#contact{
     display: flex;
     padding: 25px 50px 25px 0px;
-    background: #ededf7;
+    background: #959393;
 }
 
 .contact-heading h4 {
@@ -286,20 +286,5 @@ nav a {
 section#aboutme {
     display: flex;
     padding: 25px 50px 25px 0px;
-    background: #ededf7;
-}
-
-.contact-nav {
-    display: inline-block;
-    list-style: none;
-    margin: 0px 20px;
-	font-size:22px; 
-	line-height:28px;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-a {
-    color: black;
+    background: #959393;
 }
