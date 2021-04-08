@@ -22,7 +22,13 @@ section {
 }
 
 .big-box {
+	align-items: flex-end;
     height: 300px;
+	display:flex;
+    border: 5px solid rgb(53, 53, 53);
+	background: url(/assets/images/camera.jpeg) center/cover no-repeat;
+	flex:1;
+	margin-bottom:10px;
 }
 
 .box-box1 {
@@ -64,15 +70,6 @@ section {
 	margin-bottom:10px;
 }
 
-.big-box {
-	align-items: flex-end;
-	display:flex;
-    border: 5px solid rgb(53, 53, 53);
-	background: url(/assets/images/camera.jpeg) center/cover no-repeat;
-	flex:1;
-	margin-bottom:10px;
-}
-
 
 #hero-text {
 	padding-top: 100px;
@@ -87,6 +84,7 @@ section {
     color: white;
     font-size: 35px;
 }
+
 header {
     background: #31343d;
     display: flex;
@@ -225,30 +223,11 @@ nav a {
     text-align: left;
 }
 
-.title {
-    background: rgb(189, 189, 189);
-    color:rgb(255, 255, 255);
-    width: 39%;
-    font-size: 66px;
-    position:relative;
-    left: 900px;
-    top: -500px;
-}
-
 .about {
     font-size: 32px;
     font-weight: lighter;
     position: absolute;
     top: 234px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.work {
-    font-size: 32px;
-    font-weight: lighter;
-    position: absolute;
-    top: 700px;
     text-align: left;
     margin-top: 20px;
 }
@@ -260,21 +239,6 @@ nav a {
     height: 20%;
     margin-left:170px;
     margin-top: -360px;
-}
-
-.work {
-    padding-left: 50px;
-    border-right: 2px solid #31343d;
-    margin-right: 10px;
-}
-
-.work {
-    margin: 0px;
-    font-size: 36px;
-    line-height: 40px;
-    padding-right: 25px;
-    text-align: right;
-    color: #31343d;
 }
 
 .contact-heading h4 {
