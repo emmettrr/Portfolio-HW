@@ -71,15 +71,6 @@ nav a {
     cursor: pointer;
 }
 
-.name {
-    background:var(--tan);
-    font-size: 36px;
-    color: #FFF;
-    position: absolute;
-    top: -50px;
-    text-align: left;
-}
-
 .about {
     font-size: 32px;
     font-weight: lighter;
@@ -87,15 +78,6 @@ nav a {
     top: 234px;
     text-align: left;
     margin-top: 20px;
-}
-
-.selfie {
-    position: relative;
-    float: left;
-    width: 11%;
-    height: 20%;
-    margin-left:170px;
-    margin-top: -360px;
 }
 
 #selfie {
