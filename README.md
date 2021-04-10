@@ -7,4 +7,4 @@ I have hear an about me website where you have ways to view my portfolio, email 
 
 ## A photo of me: 
 
-![Myself](./assets/images/selfie.jpeg =150x150)
+![Myself](./assets/images/selfie.jpeg)
