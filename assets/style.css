@@ -162,7 +162,7 @@ section#aboutme {
     height: 300px;
 	display:flex;
     border: 5px solid var(--brown);
-	background: url(./assets/images/camera.jpeg) center/cover no-repeat;
+	background: url(./images/camera.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
@@ -171,7 +171,7 @@ section#aboutme {
     align-items: flex-end;
 	display:flex;
     border: 5px solid var(--brown);
-	background: url(./assets/images/flux.jpg) center/cover no-repeat;
+	background: url(./images/flux.jpg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
     margin-right: 10px;   
@@ -181,7 +181,7 @@ section#aboutme {
     align-items: flex-end;
 	display:flex;
     border: 5px solid var(--brown);
-	background: url(./assets/images/weather.jpeg) center/cover no-repeat;
+	background: url(./images/weather.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
@@ -190,7 +190,7 @@ section#aboutme {
     align-items: flex-end;
 	display:flex;
     border: 5px solid var(--brown);
-	background: url(./assets/images/waves.jpeg) center/cover no-repeat;
+	background: url(./images/waves.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
     margin-right: 10px;
@@ -201,7 +201,7 @@ section#aboutme {
     align-items: flex-end;
 	display:flex;
     border: 5px solid var(--brown);
-	background: url(./assets/images/mic.jpeg) center/cover no-repeat;
+	background: url(./images/mic.jpeg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
 }
