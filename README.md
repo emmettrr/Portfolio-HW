@@ -7,4 +7,6 @@ I have hear an about me website where you have ways to view my portfolio, email 
 
 ## A photo of me: 
 
+<div style= "width: 100px; height 120px;">
 ![Myself](./assets/images/selfie.jpeg)
+</div>
