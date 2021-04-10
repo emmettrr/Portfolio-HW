@@ -170,7 +170,7 @@ section#aboutme {
 .box-box1 {
     align-items: flex-end;
 	display:flex;
-    border: 5px solid ;
+    border: 5px solid var(--brown);
 	background: url(assets/images/flux.jpg) center/cover no-repeat;
 	flex:1;
 	margin-bottom:10px;
