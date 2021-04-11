@@ -71,6 +71,10 @@ nav a {
     cursor: pointer;
 }
 
+nav a:hover {
+    color: aqua;
+}
+
 .about {
     font-size: 32px;
     font-weight: lighter;
